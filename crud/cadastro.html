@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>CADASTRO DO USUÁRIO</title>
+		<!-- Meta tags Obrigatórias -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Arquivo CSS Bootstrap -->
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<!-- Arquivo CSS do projeto -->
+		<link rel="stylesheet" href="css/estilo.css" />
+		<!-- CSS interno -->
+		<style>
+		body {
+			background-color:;
+		}
+		
+
+		</style>
+  </head>
+
+  <body>
+
+    <div class="container-fluid">
+      <div class="py-5 text-center">
+        <h2>Cadastre-se</h2>
+		      <p>Já tem cadastro?<a href="login.php"> Faça login</a></p>
+      </div>
+    </div>
+    <br>
+
+
+    <div class="container rounded " style="background-color: #f5f5f5; padding-bottom: 35px; padding-top: 35px;">
+      <div class="row">
+        <div class="col-1">
+          
+        </div>
+      <div class="col-4 p-0">
+        <label for="nome">Nome Completo</label>
+        <input type="text" class="form-control " name="nome" id="nome" placeholder="" value="">
+      </div>
+      <div class="col-2 p-0">
+        
+      </div>
+      <div class="col-4 p-0">
+        <label for="cidade">Cidade</label>
+        <input type="text" class="form-control" name="cidade" id="cidade" placeholder="" required>
+      </div>
+    </div>
+
+        <div class="row">
+          <div class="col-1">
+            
+          </div>
+          <div class="col-4 p-0">
+            <label for="login">Login</label>
+            <input type="text" class="form-control" name="login" id="login" placeholder="" required>
+          </div>
+          <div class="col-2">
+            
+          </div>
+          <div class="col-4 p-0">
+            <label for="estado">Estado</label>
+                <select class="form-control" name="estado" id="estado">
+                    <option value="ac">AC</option>
+                    <option value="al">AL</option>
+                    <option value="ap">AP</option>
+                    <option value="am">AM</option>
+                    <option value="ba">BA</option>
+                    <option value="ce">CE</option>
+                    <option value="df">DF</option>
+                    <option value="es">ES</option>
+                    <option value="go">GO</option>
+                    <option value="ma">MA</option>
+                    <option value="ms">MS</option>
+                    <option value="mt">MT</option>
+                    <option value="mg">MG</option>
+                    <option value="pa">PA</option>
+                    <option value="pb">PB</option>
+                    <option value="pr">PR</option>
+                    <option value="pe">PE</option>
+                    <option value="pi">PI</option>
+                    <option value="rj">RJ</option>
+                    <option value="rn">RN</option>
+                    <option value="ro">RO</option>
+                    <option value="rr">RR</option>
+                    <option value="rs">RS</option>
+                    <option value="sc">SC</option>
+                    <option value="sp">SP</option>`
+                    <option value="to">TO</option>
+                    <option value="se">SE</option> 
+                </select>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-1">
+            
+          </div>
+          <div class="col-4 p-0 ">
+            <label for="senha">Senha</label>
+            <input type="password" class="form-control" name="senha" id="senha" placeholder="" required>
+          </div>
+          <div class="col-2">
+            
+          </div>
+          <div class="col-4 p-0">
+            <label for="instrumento">Instrumento</label>
+                <select class="form-control" name="instrumento" id="instrumento">
+                    <option value="vocalista">Vocalista</option>
+                    <option value="violao">Violão</option>
+                    <option value="guitarra">Guitarra</option>
+                    <option value="bateria">Bateria</option>
+                    <option value="teclado">Teclado</option>
+                    <option value="percussao">Percussão</option>
+                    <option value="contrabaixo">Contrabaixo</option>
+                    <option value="baixo">Baixo</option>
+                    <option value="cavaquinho">Cavaquinho</option>
+                    <option value="pandeiro">Pandeiro</option>
+                </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1">
+            
+          </div>
+          <div class="col-4 p-0">
+             <label for="contato">Contato</label>
+              <input type="text" class="form-control" name="contato" id="contato" maxlength="15" required>
+          </div>
+          <div class="col-2">
+            
+          </div>
+          <div class="col-4 p-0">
+            <label for="idade">Idade</label>
+            <input type="number" class="form-control" name="idade" id="idade" placeholder="" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1">
+            
+          </div>
+          <div class="col-4 p-0">
+            <label for="preco">Preço por Show (em R$)</label>
+            <input type="number" class="form-control" name="preco" id="preco" placeholder="" required>
+          </div>
+          <div class="col-2">
+            
+          </div>
+          <div class="col-2 p-0">
+            <label for="viagem">Diponivél para Viagens?</label><br>
+            <input type="radio"  name="viagem" value="nao" id="viagem" placeholder="" checked>Não 
+            <input type="radio"  name="viagem" value="sim" id="viagem" placeholder="" >Sim
+          </div>
+          <div class="col-2 p-0">
+            <label for="disponibilidade">Diponivél para Shows?</label><br>
+            <input type="radio"  name="disponivel" value="nao" id="disponivel" placeholder="" checked>Não 
+            <input type="radio"  name="disponivel" value="sim" id="disponivel" placeholder="" >Sim
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <br>
+          </div>
+        </div>
+        
+        <div class="row">
+          
+       
+          <div class="col-1">
+            
+          </div>
+          <div class="col-10 p-0" >
+            <button type="button" class="btn btn-primary  btn-block">CADASTRAR</button>
+          </div>
+        </div> 
+      </div> <!--FECHAMENTO DO CONTEINER DO CADASTRo-->
+      <footer class="my-5 pt-5 text-muted text-center text-small">
+        <p class="mb-1">&copy; Etec Dr. Demétrio Azevedo Jr. - Técnico em Desenvolvimento de Sistemas</p>
+    </footer>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+  </body>
+</html>
